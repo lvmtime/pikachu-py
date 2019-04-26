@@ -1,0 +1,49 @@
+Original version of this document can be found here:
+http://trove42.com/pikachu-syntax-rules/
+
+
+There are only 3 syntax elements – pi, pika and pikachu.
+Repeating the same syntax element 3 times in a row is not allowed.
+Pikachu makes use of 2 pikachus(stacks) – Pi Pikachu and Pika Pikachu.
+
+If a line ends with  pi pikachu or pika pikachu, perform operations on that
+specified pikachu based on the commands preceding it:
+
+pi pika -- Add the top element of the pikachu to the next top element, and push
+	the result on to the pikachu
+
+pika pi -- Subtract the top element of the pikachu from the next top element,
+	and push the result on to the pikachu
+
+pi pikachu -- Multiply the top element of the pikachu to the next top element,
+	and push the result on to the pikachu
+
+pikachu -- Divide the second top element of the pikachu by the top element,
+	and push the result on to the pikachu
+
+pika pikachu -- Pop the value on top of the pikachu and print it.
+
+pikachu pikachu -- Pop the value on top of the pikachu and print its equivalent
+	ASCII character.
+
+stack name only (nothing else) -- Pop the value on top of the pikachu.
+
+*n number of terms* -- Push the number of terms – n – on to the pikachu.
+	Make sure that no syntax element pi, pika or pikachu is repeated 3 times in
+	a row.
+
+The following 4 commands operate on both the pi pikachu and the pika pikachu.
+Therefore, these lines also don’t need to end with the name of an individual
+pikachu:
+
+pi pika -- Copy the top of pi pikachu to pika pikachu.
+
+pika pi -- Copy the top of pika pikachu to pi pikachu.
+
+pikachu pikachu -- If the top of pi pikachu and pika pikachu are equal, go to
+	line number n, where n is the number of terms in the immediate next line.
+
+pika pika -- If the top of pi pikachu and pika pikachu are inequal, go to line
+	number n, where n is the number of terms in the immediate next line.
+
+Note : Inputs are initially added to pi pikachu
