@@ -14,7 +14,7 @@ Read the online [syntax documentation](http://trove42.com/pikachu-syntax-rules) 
 
 The original online interpreter for the language is [here](http://trove42.com/pikachu-programming-language).
 
-####Installation and use:
+#### Installation and use:
 For convenience, the interpreter is implemented as a single Python file.
 Make sure you have Python 2.x installed and run:
 
@@ -33,6 +33,6 @@ input           space separated list of integers to be used as program input
 
 **_This program is Free Software distributed under [GPLv3 license](https://www.gnu.org/licenses/gpl-3.0.en.html). See COPYING for details._**
 
-#####Interpreter copyright Lev Meirovitch 2018 lvmtime@gmail.com
-#####Language copyright Nilabhro Datta 2017
-#####Pikachu and pokémon are trademarks of the Nintendo Co., Ltd. and are only mentiond as a joke.
+##### Interpreter copyright Lev Meirovitch 2018 lvmtime@gmail.com
+##### Language copyright Nilabhro Datta 2017
+##### Pikachu and pokémon are trademarks of the Nintendo Co., Ltd. and are only mentiond as a joke.
